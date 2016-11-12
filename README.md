@@ -13,7 +13,7 @@ Users - Add, edit & delete users.<br>
 Go to install.php and follow the instructions.<br>
 
 ## Customization
-Go to backend/config/config.php - to customize the application.
+Edit backend/config/config.php - to customize the application.
 
 ## Support
 Tested working in the following browsers:<br>
