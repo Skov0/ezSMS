@@ -22,5 +22,8 @@ Chrome >= 54.0<br>
 Firefox >= 45.0<br>
 IE >= 11.6<br>
 
+### SMS Gateways
+The project was tested using JustSMS.dk APi under development. But can be easily changed to fit any APi.
+
 ## Demo
 http://test.com
