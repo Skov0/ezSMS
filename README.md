@@ -14,11 +14,11 @@ Go to install.php and follow the instructions.<br>
 Go to backend/config/config.php - to customize the application.
 
 ## Support
-Tested working in the following browsers:
-Edge >= 25.10
-Chrome >= 54.0
-Firefox >= 45.0
-IE >= 11.6
+Tested working in the following browsers:<br>
+Edge >= 25.10<br>
+Chrome >= 54.0<br>
+Firefox >= 45.0<br>
+IE >= 11.6<br>
 
 ## Demo
 http://test.com
