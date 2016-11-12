@@ -3,6 +3,6 @@
 </p>
 
 <h3>FEATURES</h3>
-Send SMS to a specific number.
-Send SMS to single or multiple contacts.
-Contacts feature: Add, edit, delete
+Send SMS to a specific number.<br>
+Send SMS to single or multiple contacts.<br>
+Contacts feature: Add, edit, delete<br>
