@@ -5,4 +5,5 @@
 <h3>FEATURES</h3>
 Send SMS to a specific number.<br>
 Send SMS to single or multiple contacts.<br>
-Contacts feature: Add, edit, delete<br>
+Phonebook feature: Add, edit & delete contacts.<br>
+History: View sent SMSes.<br>
