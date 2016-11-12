@@ -23,5 +23,4 @@ Firefox >= 45.0<br>
 IE >= 11.6<br>
 
 ## Demo
-Log in with: Admin:123<br>
 http://test.com
