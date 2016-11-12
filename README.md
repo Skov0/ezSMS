@@ -1,6 +1,6 @@
 <p align="center"><img src="http://skovdev.net/public_share/kY6kZx.jpg"></p>
 
-<p align="center">Website for sending SMSes from your browser. Can be easily changed to work with your SMS Gateway provider</p>
+<p align="center">Website for sending SMSes from your browser. Can be easily modified to work with your SMS Gateway provider</p>
 
 ## Features
 Send SMS to a specific number.<br>
@@ -24,7 +24,7 @@ Firefox >= 45.0<br>
 IE >= 11.6<br>
 
 ### APis
-The project was tested using JustSMS.dk APi under development. But can be easily changed to fit any APi.
+The project was tested using JustSMS.dk APi while under development. But can be easily modified to fit any APi.
 
 ## Demo
 http://test.com
