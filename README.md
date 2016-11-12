@@ -6,8 +6,8 @@
 Send SMS to a specific number.<br>
 Send SMS to single or multiple contacts.<br>
 Phonebook - Add, edit & delete contacts.<br>
-History - View sent SMSes.<br>
 Users - Add, edit & delete users.<br>
+History - View sent SMSes.<br>
 
 ## Installation
 Go to install.php and follow the instructions.<br>
