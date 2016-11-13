@@ -11,7 +11,7 @@ $config['password']         = "YOUR_PASSWORD";
 $config['apiurl']          = "http://smsapi.dk/sms/v1/";
 
 // Global application settings
-$config['sendername']       = "EzSMS";  // name on sender
+$config['sendername']       = "EzSMS";    // name on sender
 $config['defualtprefix']    = "+45";      // If no prefix is defined when sending sms
 $config['showcontacts']     = true;       // Show contacts on Send SMS page
 $config['adminint']         = 1;          // Defines admin privileges
