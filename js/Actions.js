@@ -46,10 +46,10 @@ $('#edituser').on('show.bs.modal', function (e) {
     var purpose = 'user';
     $.ajax({
         type : 'post',
-        url : 'http://localhost/ezsms/backend/fetch_data.php', //Here you will fetch records
-        data :  'rowid='+ rowid + '&purpose=' + purpose, //Pass $id
+        url : '../backend/fetch_data.php',
+        data :  'rowid='+ rowid + '&purpose=' + purpose,
         success : function(data){
-        $('.fetched-data').html(data);//Show fetched data from database
+        $('.fetched-data').html(data);
         }
     });
  });
@@ -61,11 +61,10 @@ $('#editcontact').on('show.bs.modal', function (e) {
     var purpose = 'contact';
     $.ajax({
         type : 'post',
-        url : 'http://localhost/ezsms/backend/fetch_data.php', //Here you will fetch records
-        //data :  'rowid='+ rowid, //Pass $id
-        data :  'rowid='+ rowid + '&purpose=' + purpose, //Pass $id
+        url : '../backend/fetch_data.php',
+        data :  'rowid='+ rowid + '&purpose=' + purpose,
         success : function(data){
-        $('.fetched-data').html(data);//Show fetched data from database
+        $('.fetched-data').html(data);
         }
     });
  });
