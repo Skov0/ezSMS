@@ -25,7 +25,7 @@ IE >= 11.6<br>
 
 ### APis
 The project was tested using JustSMS.dk APi while under development. But can be easily modified to fit any APi.<br>
-Edit backend/config/config.php to modify it.
+Edit backend/config/config.php to do so.
 
 ## Demo
 http://test.com
