@@ -1,0 +1,87 @@
+/*
+* Copyright 2016 Skovdev. All rights reserved.
+*/
+
+/* gerneral */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-R.ttf');
+}
+body {
+  background-color: #FFF;
+  font-family: 'Ubuntu';
+}
+h4 {
+  color: #000;
+}
+.page-header > h1 {
+  color: #000;
+}
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+table .label {
+  cursor: pointer;
+}
+
+/* login */
+.ezSMSLogin {
+  margin-top: 300px;
+  background: #f2f2f2;
+  padding: 40px;
+  border-radius: 8px;
+}
+.ezSMSLogin label {
+  color: #272727;
+}
+.ezSMSLogin button {
+  width: 100%;
+}
+.ezSMSLogin .page-header {
+  margin-top: 0;
+}
+.ezSMSLogin .page-header > h1 {
+  color: #262626;
+  font-weight: bold;
+}
+.login-alerts {
+  margin-top: 85px;
+}
+
+/* dashboard */
+.sendsms {
+  padding-top: 60px;
+}
+.sendsettings {
+  padding-bottom: 15px;
+}
+.btn-send {
+  width: 100%;
+}
+.contacts {
+}
+.contacts > select {
+  height: 225px;
+}
+.modal {
+  margin-top: 85px;
+}
+.goback {
+  margin-top: 10px;
+  width: 100%;
+}
+@media print {
+  .goback {
+    display: none !important;
+  }
+}
+
+/* installation */
+.install-btn {
+  width: 35%;
+}
+.install-alert {
+  margin-top: 50px;
+}
