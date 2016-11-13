@@ -80,7 +80,7 @@ if ($access != $config['adminint']) {
     </div>
     <div class="modal-footer">
       <button type="button" class="btn btn-defualt" data-dismiss="modal">Close</button>
-      <button type="button commit" class="btn btn-primary">Create contact</button>
+      <button type="button commit" class="btn btn-primary">Create user</button>
     </div>
     </form>
   </div>
