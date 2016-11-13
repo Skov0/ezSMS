@@ -24,7 +24,8 @@ Firefox >= 45.0<br>
 IE >= 11.6<br>
 
 ### APis
-The project was tested using JustSMS.dk APi while under development. But can be easily modified to fit any APi.
+The project was tested using JustSMS.dk APi while under development. But can be easily modified to fit any APi.<b>
+Edit backend/config/config.php to modify it.
 
 ## Demo
 http://test.com
