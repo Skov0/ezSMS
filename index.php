@@ -36,7 +36,7 @@ if(isset($_SESSION["user"]) && !empty($_SESSION['user'])) {
       <?php } elseif (isset($_SESSION['login']) && $_SESSION['login'] === "noLogin") { unset($_SESSION['login']); ?>
       <div class="alert alert-danger alerts" role="alert">You are not logged in. Please login to continue...</div>
       <?php } elseif (isset($_SESSION['install'])) { ?>
-      <div class="alert alert-success alerts" role="alert"><?php echo $_SESSION['login']; ?></div>
+      <div class="alert alert-success alerts" role="alert"><?php echo $_SESSION['install']; ?></div>
       <?php } unset($_SESSION['install']); ?>
       </div>
       <div class="col-md-5 col-centered">
