@@ -28,4 +28,4 @@ The project was tested using JustSMS.dk APi while under development. But can be 
 Edit backend/config/config.php to do so.
 
 ## Demo
-... Comming sone.
+... Coming sone.
