@@ -1,6 +1,6 @@
 <p align="center"><img src="http://skovdev.net/public_share/kY6kZx.jpg"></p>
 
-<p align="center">Website for sending SMS from your browser. Can be easily modified to work with your SMS Gateway provider</p>
+<p align="center">Website for sending SMS from your browser. Can be easily modified to work with your SMS Gateway provider.</p>
 
 ## Features
 Send SMS to a specific number.<br>
