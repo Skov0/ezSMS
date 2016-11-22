@@ -94,10 +94,13 @@ if ($checkResult != NULL) {
   $number = "+" . $number;
 }
 $stmt->close();
+  
+// format text
+$text = nl2br($text);
 
 // insert data
 $stmt = $conn->prepare("INSERT INTO sms_sent (id, sms_to, sms_text, sms_date, owner) VALUES (?,?,?,?,?)");
-$stmt->bind_param('sssss', $newID, $number, nl2br($text), $now, $id);
+$stmt->bind_param('sssss', $newID, $number, $text, $now, $id);
 $stmt->execute();
 $stmt->close();
 $conn->close();
