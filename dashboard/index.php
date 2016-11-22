@@ -84,7 +84,7 @@ if (isset($_POST['search']) && !empty($_POST['search'])) {
         </div>
         </form>
         <h4>Contacts <small> (hold CTRL to select multiple recipients)</small></h4>
-        <select multiple class="form-control" name="recp" id="recp"> <!-- NOTE: this solution does not support IE/Edge -->
+        <select multiple class="form-control" name="recp" id="recp">
           <?php
             $conn = connectDB();
             $stmt = $conn->prepare("SELECT firstname, lastname, phone_number FROM phonebook WHERE owner = ? ORDER BY id DESC");
