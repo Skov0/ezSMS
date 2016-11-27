@@ -22,13 +22,15 @@ if (!empty($number)) {
   }
 }
 
-if (isset($_POST['frecp']) && !empty($_POST['frecp'])) {
+if (isset($_POST['frecp']) && $_POST['frecp'] != NULL) {
   $numbers = array();
   $numbers = json_decode($_POST['frecp']);
   $tempArray = array();
-  foreach ($numbers as &$contact) {
-    $contact = explode(": ", $contact)[1];
-    array_push($tempArray, $contact);
+  if (is_array($numbers)) {
+    foreach ($numbers as &$contact) {
+      $contact = explode(": ", $contact)[1];
+      array_push($tempArray, $contact);
+    }
   }
   if (isset($number) && !empty($number)) {
     array_push($tempArray, $number);
