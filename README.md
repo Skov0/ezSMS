@@ -22,7 +22,8 @@ Edge >= 25.10<br>
 Chrome >= 54.0<br>
 Firefox >= 45.0<br>
 IE >= 11.6<br>
-(May work with older versions, but it hasn't been tested..)
+
+May work with older versions, but it hasn't been tested..
 
 ### APis
 The project was tested using JustSMS.dk APi while under development. But can be easily modified to fit any APi.<br>
