@@ -10,7 +10,7 @@ Users - Add, edit & delete users.<br>
 History - View sent SMSes.<br>
 
 ## Installation
-Go to install.php and follow the instructions.<br>
+Go to install.php and follow the instructions. (for added security please move backend/config/database.ini to a directory outside the document root after the installation. And edit backend/config/mysql_conn.php with the new path.)<br>
 
 ## Customization
 Edit backend/config/config.php - to customize the application.
