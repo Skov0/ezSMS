@@ -2,6 +2,7 @@
 /*
 * Copyright 2016 Skovdev. All rights reserved.
 */
+//TODO: needs better error handling.
 
 /// !!!!! DELETE THIS FILE AFTER INSTALLATION !!!!! ///
 session_start();
