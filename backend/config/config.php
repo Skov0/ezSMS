@@ -25,9 +25,12 @@ class SMSGateway {
   public function SendSMS($number, $text) {
     // get config vars
     global $config;
+    
+    // encode text
+    $encodedTxt = urlencode($text);
 
     // format request
-    $request = $config['apiurl'] . "?username=" . $config['username'] . "&password=" . $config['password'] . "&to=" . $number . "&from=" . $config['sendername'] . "&message=" . urlencode($text);
+    $request = $config['apiurl'] . "?username=" . $config['username'] . "&password=" . $config['password'] . "&to=" . $number . "&from=" . $config['sendername'] . "&message=" . $encodedTxt;
 
     // get and return status
     $status = simplexml_load_file($request);
