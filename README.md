@@ -1,4 +1,4 @@
-<p align="center"><img src="https://skovdev.net/public_share/kY6kZx.jpg"></p>
+<p align="center"><img src="https://oc.skovdev.net/index.php/apps/files_sharing/ajax/publicpreview.php?x=1904&y=662&a=true&file=kY6kZx.jpg&t=ewMZWjmxoi7qCgo&scalingup=0"></p>
 
 <p align="center">Website for sending SMS from your browser. Can be easily modified to work with your SMS Gateway provider.</p>
 
