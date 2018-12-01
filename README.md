@@ -1,4 +1,4 @@
-<p align="center"><img src="https://oc.skovdev.net/index.php/apps/files_sharing/ajax/publicpreview.php?x=1904&y=662&a=true&file=kY6kZx.jpg&t=ewMZWjmxoi7qCgo&scalingup=0"></p>
+<p align="center"><img src="https://skovdev-my.sharepoint.com/:i:/g/personal/mathias_skovdev_net/EXm0R0BGsl9GqIr3BWN0gnIBRShPLgbcy3IS2LOXWQfAuw?e=5c6aw3"></p>
 
 <p align="center">Website for sending SMS from your browser. Can be easily modified to work with your SMS Gateway provider.</p>
 
@@ -30,3 +30,5 @@ Edit backend/config/config.php to do so.
 
 ## Demo
 ... Coming sone.
+
+It should be noted that this project was made as a temporary solution years ago, and currently lacks error handling, etc.
