@@ -31,4 +31,4 @@ Edit backend/config/config.php to do so.
 ## Demo
 ... Coming sone.
 
-It should be noted that this project was made as a temporary solution years ago, and currently lacks error handling, etc.
+It should be noted that this project was made as a temporary solution years ago when I was learning PHP, and lacks error handling, etc. in its current state..
