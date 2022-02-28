@@ -28,7 +28,5 @@ Might work with older versions, but it hasn't been tested..
 The project was tested using JustSMS.dk APi while under development. But can be easily modified to fit any APi.<br>
 Edit backend/config/config.php to do so.
 
-## Demo
-... Coming sone.
-
-It should be noted that this project was made as a temporary solution years ago when I was learning PHP, and lacks error handling, etc. in its current state..
+## Please note
+It should be noted that this project was made as a temporary solution for a client years ago when I was learning PHP, and lacks error handling, etc in its current state..
